@@ -1,0 +1,18 @@
+* {
+  base: #24273a;
+  mantle: #1e2030;
+  text: #cad3f5;
+  red: #ed8796;
+  green: #a6da95;
+
+  background:       #1a1a1a;
+  foreground:       #ffffff;
+  accent:           #cccccc;
+  background-tb:    #3c3c3c;
+  border-tb:        #2c2c2c;
+  selected:         linear-gradient(to right, #ffffff33, #ffffff33);
+  button:           linear-gradient(#7a7a7a);
+  button-selected:  linear-gradient(#aaaaaa);
+  active:           linear-gradient(to right, #bdbdbd, #aeaeae);
+  urgent:           #ED8796;
+}
