@@ -1,1 +1,29 @@
 # Dotfiles
+## Paths
+Following directories and files should be located in specified locations:
+- hypr: ~/.config
+- hyprpanel: ~/.config
+- palettes: ~/.config
+- rofi: ~/.config
+- sddm: /usr/share
+- sddm.conf: /etc
+## hyprland.conf
+To use rofi, hyprlock, hyprpaper and hyprpanel you need to add following lines to your hyprland.conf:
+### rofi
+```
+$menu = rofi -show drun -theme ~/.config/rofi/launcher.rasi
+```
+### hyprlock
+```
+$screenlock = hyprlock
+
+bind = $mainMod, L, exec, $screenlock
+```
+### hyprpaper
+```
+exec-once = hyprpaper
+```
+### hyprpanel
+```
+exec-once = hyprpanel
+```
