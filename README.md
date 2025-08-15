@@ -7,6 +7,7 @@ Following directories and files should be located in specified locations:
 - rofi: ~/.config/
 - power-lines: /usr/share/sddm/themes/
 - sddm.conf: /etc/
+- kitty: ~/.config/
 ## hyprland.conf
 To use rofi, hyprlock, hyprpaper and hyprpanel you need to add following lines to your hyprland.conf:
 ### rofi
