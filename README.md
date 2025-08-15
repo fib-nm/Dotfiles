@@ -9,7 +9,7 @@ Following directories and files should be located in specified locations:
 - sddm.conf: /etc/
 - kitty: ~/.config/
 ## hyprland.conf
-To use rofi, hyprlock, hyprpaper and hyprpanel you need to add following lines to your hyprland.conf:
+To use rofi, hyprlock, hyprpaper, kitty and hyprpanel you need to add following lines to your hyprland.conf:
 ### rofi
 ```
 $menu = rofi -show drun -theme ~/.config/rofi/launcher.rasi
@@ -27,4 +27,8 @@ exec-once = hyprpaper
 ### hyprpanel
 ```
 exec-once = hyprpanel
+```
+### kitty
+```
+$terminal = kitty
 ```
